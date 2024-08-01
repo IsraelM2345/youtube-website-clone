@@ -1,0 +1,45 @@
+div{
+  display: inline-block;
+  border-radius: 4px;
+  box-shadow: 0 1px 8px 1px rgba(128, 128, 128, 0.7);
+  border-width: 1px;
+  border-style: solid;
+  border: 0;
+  margin-top: 6px;
+  margin-left: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 18px;
+  width: 360px;
+}
+
+img{
+
+  vertical-align: middle;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+}
+input {
+  font-size: 14px;
+  border: 0;
+  width: 240px;
+  vertical-align: middle;
+}
+.btn {
+  color: white;
+  background-color: rgb(50, 147, 244);
+  opacity: .8;
+  border: 0;
+  border-radius: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  vertical-align: middle;
+  font-size: 14px;
+}

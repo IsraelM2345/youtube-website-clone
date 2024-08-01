@@ -1,0 +1,12 @@
+body{
+  font-family: Montserrat;
+  text-align: center;
+  line-height: 12px;
+}
+.model{
+  font-size: 38px;
+  font-weight: 600;
+}
+.order{
+  font-size: 18px;
+}

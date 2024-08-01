@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .uber-button{
+      background-color: #000000;
+      color: white;
+      height: 32px;
+      width: 110px;
+      border: none;
+      font-size: 12px;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 8px;
+      transition: opacity 0.15s;
+    }
+
+    .uber-button:hover{
+      opacity: 0.8;
+    }
+    .amazon-button{
+      background-color: rgba(255, 216, 20, .8);
+      color: black;
+      font-family: Arial;
+      border: none;
+      font-size: 14px;
+      height: 32px;
+      width: 160px;
+      border-radius: 18px;
+      cursor: pointer;
+      transition: background-color 0.15s;
+    }
+    .amazon-button:hover{
+      background-color: rgb(255, 216, 20);
+    }
+    .github-button{
+      background-color: rgb(46, 164, 79);
+      color: rgb(250, 250, 250);
+      height: 37px;
+      width: 100px;
+      border: none;
+      font-size: 14px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 8px;
+      font-weight: bold;
+      font-style: normal;
+      padding-bottom: 3px;
+      transition: box-shadow 0.15s;
+    }
+
+    .github-button:hover {
+      box-shadow: 0px 0px 2px grey;
+    }
+    .get-started{
+      background-color: rgba(121, 82, 179, 0.9);
+      color: whitesmoke;
+      height: 37px;
+      width: 110px;
+      border: none;
+      font-size: 12px;
+      border-radius: 3px;
+      cursor: pointer;
+      margin-right: 8px;
+      font-weight: bold;
+      transition: background-color 0.15s, box-shadow 0.15s;
+    }
+
+    .get-started:hover{
+      background-color: rgb(118, 83, 170);
+      box-shadow: 0px 0px 2px grey;
+    }
+    .download{
+      background-color: white;
+      color: grey;
+      border-width: 1px;
+      border-style: solid;
+      border-color: grey;
+      height: 37px;
+      width: 110px;
+      font-size: 12px;
+      border-radius: 3px;
+      cursor: pointer;
+      margin-right: 8px;
+      font-weight: bold;
+      transition: background-color 0.15s, color 0.15s, opacity 0.15s;
+    }
+
+    .download:hover{
+      background-color: grey;
+      opacity: 0.9;
+      color: white;
+    }
+
+    .apply-button{
+      background-color: rgba(10, 102, 194, 0.8);
+      color: whitesmoke;
+      border: none;
+      font-size: 16px;
+      height: 38px;
+      width: 255px;
+      border-radius: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-right: 8px;
+      transition: background-color 0.15s, border-width 0.15s;
+    }
+
+    .apply-button:hover{
+      background-color: rgb(21, 90, 159);
+      border-width: 2px;
+    }
+
+    .save-button{
+      background-color: white;
+      color: rgba(10, 102, 194, 0.8);
+      border-style: solid;
+      border-color: rgb(10, 102, 194);
+      border-width: 1px;
+      font-family: Arial;
+      font-size: 16px;
+      height: 38px;
+      width: 80px;
+      border-radius: 18px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color .15s border-width .15s;
+    }
+
+    .save-button:hover{
+      background-color: rgb(202, 228, 255);
+      border-width: 2px;
+    }
+    a{
+      font-size: 18px;
+      color:rgb(0, 113, 133);
+    }
+    a:hover{
+      color: brown;
+    }
+    .shoes-logo{
+      color: #000000;
+    }
+
+    .pricing-shoes{
+      font-size: 20px; 
+      color: rgb(0, 118, 0); 
+      font-weight: bold;
+    }
+
+    .free-delivery{
+      font-size: 20px; 
+      color: #000000; 
+      font-weight: 500;
+    }
+    .add-to-cart{
+      background-color: rgb(255, 216, 20);
+      color: black;
+      font-family: Arial;
+      border: none;
+      font-size: 14px;
+      height: 32px;
+      width: 125px;
+      border-radius: 18px;
+      cursor: pointer;
+      margin-right: 10px;
+      transition: background-color 0.15s, box-shadow 0.15s;
+    }
+    .add-to-cart:hover{
+      background-color: rgb(234, 199, 26);
+      box-shadow: 0 0 2px rgb(234, 199, 26);
+    }
+    .add-to-cart:active{
+      opacity: 0.6;
+    }
+    .buy-now{
+      background-color: rgb(255, 164, 28);
+      color: black;
+      font-family: Arial;
+      border: none;
+      font-size: 14px;
+      height: 32px;
+      width: 125px;
+      border-radius: 18px;
+      cursor: pointer;
+      transition: background-color 0.15s, box-shadow 0.15s;
+    }
+    .buy-now:hover{
+      background-color: rgb(250, 144, 43);
+      box-shadow: 0 0 2px rgb(250, 148, 36);
+    }
+    .buy-now:active{
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+
+  <button class="uber-button">
+    Request now
+  </button>
+
+  <button class="amazon-button">
+    Add to Cart
+  </button>
+
+  <button class="github-button">
+    Sign up
+  </button> <br/><br/>
+
+  <button class="get-started">
+    Get started
+  </button>
+  <button class="download">
+    Download
+  </button><br/><br/>
+
+  <button class="apply-button">
+    Apply on company website
+  </button>
+  <button class="save-button">
+    Save
+  </button><br/><br/>
+
+  <a href="https://www.amazon.com/">
+    Back to Amazon
+  </a><br>
+  
+  <h1 class="shoes-logo">
+    Nike Black Running Shoes
+  </h1>
+
+    <h3 class="pricing-shoes">
+      $39 - in stock.
+    </h3>
+
+    <p class="free-delivery">
+      Free delivery tomorrow.
+  </p>
+  
+  <button class="add-to-cart">
+    Add to Cart 
+  </button>
+  
+  <button class="buy-now">
+    Buy now
+  </button>
+  
+  
+</body>
+</html>
